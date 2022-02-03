@@ -10,10 +10,10 @@ public String getBikeName() {
 public void setBikeName(String bikeName) {
 	BikeName = bikeName;
 }
-public int getBikeCapacity() {
+public int getCapacity() {
 	return BikeCapacity;
 }
-public void setBikeCapacity(int bikeCapacity) {
+public void setCapacity(int bikeCapacity) {
 	BikeCapacity = bikeCapacity;
 }
 public double getBikePrice() {
