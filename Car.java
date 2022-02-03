@@ -17,10 +17,10 @@ public class Car extends Vehicle{
 	public void setCarType(String carType) {
 		this.carType = carType;
 	}
-	public int getCarCapacity() {
+	public int getCapacity() {
 		return carCapacity;
 	}
-	public void setCarCapacity(int carCapacity) {
+	public void setCapacity(int carCapacity) {
 		this.carCapacity = carCapacity;
 	}
 	public double getCarPrice() {
