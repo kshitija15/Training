@@ -26,7 +26,7 @@ public class VehicleManagementMain {
 		car.setColour("Black");
 		car.setCarName("Tata Nexon");
 		car.setCarType("SUV");
-		car.setCarCapacity(4);
+		car.setCapacity(4);
 		car.setCarPrice(740000);
 		System.out.println("*******************" );
 
@@ -35,7 +35,7 @@ public class VehicleManagementMain {
 		System.out.println("Colour :" + car.getColour());
 		System.out.println("Car Name :" + car.getCarName());
 		System.out.println("Car Type  :" + car.getCarType());
-		System.out.println("Car Capacity :" + car.getCarCapacity());
+		System.out.println("Car Capacity :" + car.getCapacity());
 		System.out.println("Car Price :" + car.getCarPrice());
 		
                 Bike bike=new Bike();
@@ -44,7 +44,7 @@ public class VehicleManagementMain {
 		bike.setFuelType("Petrol");
 	        bike.setColour("Brown");
 		bike.setBikeName("TVS jupiter");
-		bike.setBikeCapacity(2);
+		bike.setCapacity(2);
 		bike.setBikePrice(75000);
 
 		System.out.println("*******************" );
@@ -52,7 +52,7 @@ public class VehicleManagementMain {
 		System.out.println("Fuel Type  :" + bike.getFuelType());
 		System.out.println("Colour :" + bike.getColour());
 		System.out.println("Bike Name :" + bike.getBikeName());
-		System.out.println("Bike Capacity :" + bike.getBikeCapacity());
+		System.out.println("Bike Capacity :" + bike.getCapacity());
 		System.out.println("Bike Price :" + bike.getBikePrice());
 		
 		
