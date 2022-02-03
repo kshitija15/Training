@@ -38,11 +38,11 @@ public class VehicleManagementMain {
 		System.out.println("Car Capacity :" + car.getCarCapacity());
 		System.out.println("Car Price :" + car.getCarPrice());
 		
-         Bike bike=new Bike();
+                Bike bike=new Bike();
 		
 		bike.setVehicleNumber(9823);
 		bike.setFuelType("Petrol");
-	    bike.setColour("Brown");
+	        bike.setColour("Brown");
 		bike.setBikeName("TVS jupiter");
 		bike.setBikeCapacity(2);
 		bike.setBikePrice(75000);
