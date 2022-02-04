@@ -18,7 +18,7 @@ public class VehicleManagementMain {
 
 
 		
-	//	System.out.println("Vehicle Number :" + vehicle.getVehicleNumber());
+	
 		System.out.println("Fuel Type  :" + vehicle.getFuelType());
 		System.out.println("Colour :" + vehicle.getColour());
 		System.out.println("Brand:" + vehicle.getBrand());
@@ -50,7 +50,7 @@ public class VehicleManagementMain {
 		
          Bike bike=new Bike();
 		
-		//bike.setVehicleNumber(9823);
+		
 		bike.setFuelType("Petrol");
 	    bike.setColour("Brown");
 		
